@@ -67,9 +67,7 @@ header {
   header nav {
     float: right;
     margin-right: 80px;
-    margin-top: 33px; 
-  
-  }
+    margin-top: 33px; }
     @media only screen and (max-width: 1000px) {
       header nav {
         margin-right: 40px; } }
@@ -295,7 +293,6 @@ footer {
 
 
 .scrolling-wrapper {
-  
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -303,7 +300,6 @@ footer {
   -webkit-overflow-scrolling: touch;
   display: flex;
   align-items: center;
-  
 }
 
 .scrolling-wrapper::-webkit-scrollbar {
@@ -370,7 +366,7 @@ footer {
 
 
 .nav_lang_box {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   position: absolute;
@@ -474,7 +470,6 @@ footer {
 
   nav {
     width: 60%;
-    
   }
 }
               
