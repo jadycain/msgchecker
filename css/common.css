@@ -68,7 +68,6 @@ header {
     float: right;
     margin-right: 80px;
     margin-top: 33px; 
-    position: relative;
   
   }
     @media only screen and (max-width: 1000px) {
@@ -297,10 +296,13 @@ footer {
 
 .scrolling-wrapper {
   
-  -webkit-overflow-scrolling: touch;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  align-items: center;
   
 }
 
