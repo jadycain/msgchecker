@@ -1,0 +1,6 @@
+# This robots.txt file controls crawling of URLs under https://www.messagecheckerapp.com.
+
+User-agent: *
+Disallow:
+
+Sitemap: https://www.messagecheckerapp.com/sitemap.xml

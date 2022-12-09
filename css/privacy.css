@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+section.privacy {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 150px 0; }
+  @media only screen and (max-width: 750px) {
+    section.privacy {
+      padding: 100px 0; } }
+  section.privacy .inner {
+    width: 1000px;
+    margin: 0 auto; }
+    @media only screen and (max-width: 1100px) {
+      section.privacy .inner {
+        width: calc(100% - 60px); } }
+    section.privacy .inner h2 {
+      font-size: 48px;
+      line-height: 64px;
+      font-weight: 700;
+      margin-bottom: 65px; }
+      @media only screen and (max-width: 1100px) {
+        section.privacy .inner h2 {
+          font-size: 36px;
+          line-height: 50px; } }
+    section.privacy .inner h3 {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 700;
+      padding-top: 30px;
+      margin-bottom: 15px; }
+    section.privacy .inner p {
+      font-size: 20px;
+      line-height: 34px;
+      margin-bottom: 30px; }
+      @media only screen and (max-width: 750px) {
+        section.privacy .inner p {
+          font-size: 16px;
+          line-height: 26px; } }
+      section.privacy .inner p span {
+        font-weight: 700; }
+      section.privacy .inner p a {
+        color: #B9F332; }
+    section.privacy .inner li {
+      font-size: 20px;
+      line-height: 34px;
+      margin-bottom: 5px;
+      list-style-type: disc;
+      text-indent: -30px;
+      padding-left: 30px; }
+      @media only screen and (max-width: 750px) {
+        section.privacy .inner li {
+          font-size: 16px;
+          line-height: 26px;
+          text-indent: -23px;
+          padding-left: 23px; } }

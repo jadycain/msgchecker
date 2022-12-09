@@ -1,0 +1,79 @@
+@charset "utf-8"
+@import "var.sass"
+
+article
+
+section.blog
+	width: 100%
+	position: relative
+	overflow: hidden
+	min-height: 1000px
+	padding: 150px 0
+	+rwd(750px)
+		padding: 60px 0
+	.inner
+		width: 1020px
+		margin: 0 auto
+		+rwd(1100px)
+			width: calc(100% - 60px)
+		.title
+			font-size: 48px
+			line-height: 60px
+			font-weight: 700
+			margin-bottom: 40px
+			+rwd(750px)
+				font-size: 24px
+				line-height: 30px
+				margin-bottom: 20px
+		.titleImg
+			width: 100%
+			margin-bottom: 50px
+			text-align: center
+			+rwd(750px)
+				margin-bottom: 30px
+			img
+				margin-bottom: 20px
+				max-width: 1020px
+				+rwd(1100px)
+					width: 100%
+				+rwd(750px)
+					margin-bottom: 5px
+			.author
+				font-size: 18px
+				font-weight: 400
+				line-height: 30px
+				color: #888
+				text-align: left
+				+rwd(750px)
+					text-align: right
+					font-size: 12px
+					line-height: 18px
+		.content,.vicePreface,.viceContent
+			font-size: 20px
+			font-weight: 400
+			line-height: 30px
+			margin-bottom: 80px
+			+rwd(750px)
+				font-size: 15px
+				line-height: 24px
+				margin-bottom: 30px
+		
+		.viceTitle
+			font-size: 24px
+			font-weight: 700
+			line-height: 36px
+			margin-bottom: 32px
+			+rwd(750px)
+				font-size: 18px
+				line-height: 27px
+				margin-bottom: 10px
+		.viceImg
+			text-align: center
+			width: 100%
+			margin-bottom: 80px
+			+rwd(750px)
+				margin-bottom: 30px
+			img
+				max-width: 1020px
+				+rwd(1100px)
+					width: 100%

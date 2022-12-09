@@ -1,0 +1,55 @@
+doctype html
+html
+	head
+		include head.pug
+		//- CSS
+		link(rel="stylesheet" href="css/blog.css")
+		
+		script(src="js/blog.js" type="text/javascript")
+	body
+		include header.pug
+
+		article
+			section.blog
+				.inner
+					//- .title How to avoid misinformation in the social media?
+					//- .titleImg
+					//- 	img(src="images/blog_img01.png", alt="")
+					//- 	.author 2022/05/04 by Message Checker
+					//- .content Social media has had a dramatic impact on the ways we interact with one another. Social media platforms have connected us to one another in new and impactful ways. Stories and opinions can gain exposure with unprecedented speed, giving individuals around the globe continuous access to a near-real-time conversation about both important and trivial matters. With the increasing popularity of a wide variety of internet-enabled devices and advanced mobile internet speeds, more and more people are getting involved with social media. Indeed, two-thirds of all U.S. adults use it, and many of us get our news through posts made on social media networks. Unfortunately, there is a dark side to social media: fake news. Misinformation can influence users, manipulating them for political or economic reasons. How can you spot fake news, and what can you do to combat it? This guide will provide a comprehensive view of the subject and give you the tools you’ll need to address this burgeoning issue.
+					
+					//- .viceTitle What Is Misinformation?
+					//- .vicePreface Often referred to as “fake news” in modern times, the term “misinformation” is defined as false or inaccurate information that may be distributed with the intent to deceive those who read it.
+					//- 	|
+					//- 	br
+					//- 	| Information or opinions that you disagree with may not necessarily constitute misinformation. While the term “fake news” is often used as a pejorative in journalism today, this is a dishonest use of the term; indeed, the practice of calling fact-based reporting “misinformation” based on the premise that it doesn’t align with your political views could arguably be called misinformation itself.
+					//- .viceImg
+					//- 	img(src="images/blog_img02.png", alt="")
+					//- .viceContent The Terms of Service shown here (hereinafter referred to as the “Terms of Service”) are intended to manage your login and access to the website (hereinafter referred to as the “Website”) operated by WHOSCALL JAPAN Co., Ltd. (hereinafter referred to as the “Company”), any data, text, charts or other materials shown on the Website, or any information made available by the Company (hereinafter referred to as the “Message Checker Contents”), and any service or software released by the “Company” (hereinafter referred to as the “Message Checker Service”, including but not limited to, the “Message Checker Applications”, and any service or software released by the “Company” under the name of Message Checker).
+		footer
+			.inner
+				.main
+					.row
+						h4 Empresa
+						a(href="https://whoscall.com" target="_blank") Gogolook
+						a(href="privacy.html") Política de Privacidade
+						a(href="terms.html") Termos de serviço
+					.row
+						h4 Serviços
+						a(href="contact.html") Contato
+						a(href="faq.html") Perguntas frequentes
+					.row
+						h4 Siga-nos
+						a(href="https://www.facebook.com/MessageCheckerBR" target="_blank") Facebook
+						a(href="https://www.instagram.com/messagechecker.br/?igshid=YmMyMTA2M2Y=" target="_blank") Instagram
+					.row
+						h1 Message Checker
+						a.app01(href="https://bit.ly/3b91YMY" target="_blank")
+							img(src="images/app01.png", alt="Google Play")
+				.copyright
+					p © 2021 Gogolook. Todos os direitos reservados.
+					.lang Português
+					.lang_box
+						a(href="../index.html") English (US)
+						a(href="../tw/index.html") 中文
+						span Português

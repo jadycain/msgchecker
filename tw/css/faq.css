@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap");
+section.faq {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 150px 0; }
+  @media only screen and (max-width: 750px) {
+    section.faq {
+      padding: 100px 0; } }
+  section.faq .inner {
+    width: 1000px;
+    margin: 0 auto; }
+    @media only screen and (max-width: 1100px) {
+      section.faq .inner {
+        width: calc(100% - 60px); } }
+    section.faq .inner h2 {
+      font-size: 36px;
+      line-height: 64px;
+      font-weight: 700;
+      margin-bottom: 65px;
+      font-family: 'Noto Sans TC', sans-serif; }
+      @media only screen and (max-width: 1100px) {
+        section.faq .inner h2 {
+          font-size: 36px;
+          line-height: 50px; } }
+    section.faq .inner .item_box .item {
+      border-bottom: 1px solid #BBB;
+      padding-bottom: 15px;
+      margin-bottom: 30px; }
+      section.faq .inner .item_box .item .item_inner h3 {
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        cursor: pointer;
+        position: relative;
+        width: calc(100% - 30px); }
+        @media only screen and (max-width: 750px) {
+          section.faq .inner .item_box .item .item_inner h3 {
+            font-size: 20px;
+            line-height: 30px; } }
+        section.faq .inner .item_box .item .item_inner h3:after {
+          content: "";
+          width: 22px;
+          height: 11px;
+          position: absolute;
+          right: -30px;
+          top: 15px;
+          background-image: url(../images/arrow_down2.png);
+          background-repeat: no-repeat; }
+          @media only screen and (max-width: 750px) {
+            section.faq .inner .item_box .item .item_inner h3:after {
+              top: 12px; } }
+      section.faq .inner .item_box .item .item_inner.active h3:after {
+        -webkit-transform: scaleY(-1);
+        -ms-transform: scaleY(-1);
+        transform: scaleY(-1); }
+      section.faq .inner .item_box .item .answer {
+        display: none;
+        padding-bottom: 15px; }
+        section.faq .inner .item_box .item .answer p {
+          font-size: 20px;
+          line-height: 34px;
+          width: calc(100% - 30px); }
+          @media only screen and (max-width: 750px) {
+            section.faq .inner .item_box .item .answer p {
+              font-size: 16px;
+              line-height: 26px; } }
+          section.faq .inner .item_box .item .answer p a {
+            color: #B9F332; }

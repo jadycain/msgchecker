@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.blogHeader {
+  display: none;
+}
+
+.blogFooter {
+  display: none;
+}
+
+.blogArticle {
+  display: none;
+}
+
+.list li{
+  list-style-type: disc;
+  list-style-position: inside
+}
+
+.viceSubTitle {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 20px;
+
+}
+
+.viceImgSource {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #888;
+  text-align: left;
+}
+
+.vicePreface a {
+  color: #242435;
+  text-decoration: underline
+}
+
+@media only screen and (max-width: 750px) {
+
+  .viceSubTitle {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 8px;
+  }
+
+  .viceImgSource {
+    text-align: right;
+    font-size: 12px;
+    line-height: 18px;
+  
+  }
+
+}
+
+section.blog {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 150px 0;
+  min-height: 1000px; }
+  @media only screen and (max-width: 750px) {
+    section.blog {
+      padding: 60px 0; } }
+  section.blog .inner {
+    width: 1020px;
+    margin: 0 auto; }
+    @media only screen and (max-width: 1100px) {
+      section.blog .inner {
+        width: calc(100% - 60px); } }
+    section.blog .inner .title {
+      font-size: 48px;
+      line-height: 60px;
+      font-weight: 700;
+      margin-bottom: 40px; }
+      @media only screen and (max-width: 750px) {
+        section.blog .inner .title {
+          font-size: 24px;
+          line-height: 30px;
+          margin-bottom: 20px; } }
+    section.blog .inner .titleImg {
+      width: 100%;
+      margin-bottom: 50px;
+      text-align: center; }
+      @media only screen and (max-width: 750px) {
+        section.blog .inner .titleImg {
+          margin-bottom: 30px; } }
+      section.blog .inner .titleImg img {
+        margin-bottom: 20px;
+        max-width: 1020px; }
+        @media only screen and (max-width: 1100px) {
+          section.blog .inner .titleImg img {
+            width: 100%; } }
+        @media only screen and (max-width: 750px) {
+          section.blog .inner .titleImg img {
+            margin-bottom: 5px; } }
+      section.blog .inner .titleImg .author {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #888;
+        text-align: left; }
+        @media only screen and (max-width: 750px) {
+          section.blog .inner .titleImg .author {
+            text-align: right;
+            font-size: 12px;
+            line-height: 18px; } }
+    section.blog .inner .content, section.blog .inner .vicePreface, section.blog .inner .viceContent {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 80px; }
+      @media only screen and (max-width: 750px) {
+        section.blog .inner .content, section.blog .inner .vicePreface, section.blog .inner .viceContent {
+          font-size: 15px;
+          line-height: 24px;
+          margin-bottom: 30px; } }
+    section.blog .inner .viceTitle {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      margin-bottom: 32px; }
+      @media only screen and (max-width: 750px) {
+        section.blog .inner .viceTitle {
+          font-size: 18px;
+          line-height: 27px;
+          margin-bottom: 10px; } }
+    section.blog .inner .viceImg {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 80px; }
+      @media only screen and (max-width: 750px) {
+        section.blog .inner .viceImg {
+          margin-bottom: 30px; } }
+      section.blog .inner .viceImg img {
+        max-width: 1020px; }
+        @media only screen and (max-width: 1100px) {
+          section.blog .inner .viceImg img {
+            width: 100%; } }

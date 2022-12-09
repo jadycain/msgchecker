@@ -1,0 +1,51 @@
+=rwd($w)
+	@media only screen and (max-width: $w)
+		@content
+=rwd2($w:751px)
+	@media only screen and (min-width: $w)
+		@content
+=rwd3($h:900px)
+	@media only screen and (max-height: $h)
+		@content
+=rwd4($h:900px,$w:1100px)
+	@media only screen and (max-height: $h) and (max-width: $w)
+		@content
+=rwd5($h:900px,$w:900px)
+	@media only screen and (max-height: $h) and (max-width: $w)
+		@content
+=size($w,$h:$w,$bdrs:0)
+	width: $w
+	height: $h
+	border-radius: $bdrs
+=flex($j:center,$a:center)
+	display: flex
+	justify-content: $j
+	align-items: $a
+=abpos($l:initial,$t:initial)
+	position: absolute
+	left: $l
+	top: $t
+=keyframes($name)
+	@-webkit-keyframes #{$name}
+		@content
+	@-moz-keyframes #{$name}
+		@content
+	@-ms-keyframes #{$name}
+		@content
+	@keyframes #{$name}
+		@content 
+=animation($content)
+	-webkit-animation: $content
+	-moz-animation: $content
+	-o-animation: $content
+	animation: $content
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+=montserrat
+	font-family: 'Montserrat', sans-serif
+
+$green: #B9F332
+$grey: #242435
+$grey2: #F6F6F6

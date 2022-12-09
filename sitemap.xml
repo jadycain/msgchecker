@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://www.messagecheckerapp.com/</loc>
+  <lastmod>2022-10-06T04:17:40+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/index.html</loc>
+  <lastmod>2022-10-06T04:17:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/faq.html</loc>
+  <lastmod>2022-10-06T04:17:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/privacy.html</loc>
+  <lastmod>2022-10-06T04:17:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/terms.html</loc>
+  <lastmod>2022-10-06T04:17:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/tw/index.html</loc>
+  <lastmod>2022-10-06T04:17:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/pt/index.html</loc>
+  <lastmod>2022-10-06T04:17:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/tw/faq.html</loc>
+  <lastmod>2022-10-06T04:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/pt/faq.html</loc>
+  <lastmod>2022-10-06T04:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/tw/privacy.html</loc>
+  <lastmod>2022-10-06T04:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/pt/privacy.html</loc>
+  <lastmod>2022-10-06T04:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/tw/terms.html</loc>
+  <lastmod>2022-10-06T04:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.messagecheckerapp.com/pt/terms.html</loc>
+  <lastmod>2022-10-06T04:17:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
