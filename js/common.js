@@ -34,8 +34,6 @@ $(document).ready(function () {
 
   $(".nav_lang").on("click", function (e) {
     e.stopPropagation();
-
-    alert($(".nav_lang_box"));
     if ($(this).hasClass("menu_active") != true) {
       $(this).addClass("menu_active");
       $(".nav_lang_box").fadeIn(300);
