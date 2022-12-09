@@ -67,7 +67,10 @@ header {
   header nav {
     float: right;
     margin-right: 80px;
-    margin-top: 33px; }
+    margin-top: 33px; 
+    position: relative;
+  
+  }
     @media only screen and (max-width: 1000px) {
       header nav {
         margin-right: 40px; } }
@@ -293,13 +296,12 @@ footer {
 
 
 .scrolling-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  white-space: nowrap;
+  
   -webkit-overflow-scrolling: touch;
-  display: flex;
-  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  
 }
 
 .scrolling-wrapper::-webkit-scrollbar {
@@ -470,6 +472,7 @@ footer {
 
   nav {
     width: 60%;
+    
   }
 }
               
